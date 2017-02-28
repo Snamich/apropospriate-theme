@@ -153,7 +153,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(mode-line ((,class (:box (:line-width 4 :color ,light-emphasis :style nil)
                                 :background ,base00-2 :foreground ,base03
                                 :height ,(or apropospriate-mode-line-height 1.0)))))
-     `(mode-line-inactive ((,class (:box (:line-width 4 :color ,base00+1 :style nil)
+     `(mode-line-inactive ((,class (:box (:line-width 4 :color ,light-emphasis :style nil)
                                          :background ,base00+1 :foreground ,base02
                                          :height ,(or apropospriate-mode-line-height 1.0)))))
      `(mode-line-buffer-id ((,class (:foreground unspecified :background nil))))
